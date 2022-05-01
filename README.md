@@ -1,5 +1,7 @@
 # evm-scripts
 
+[![Node.js CI](https://github.com/Akagi201/evm-scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/Akagi201/evm-scripts/actions/workflows/ci.yml)
+
 web3.js and ether.js scripts
 
 ## web3.js projects

@@ -15,7 +15,7 @@
     "lint": "eslint . --ext .ts",
     "sort-package": "sort-package-json",
     "web3:transaction": "node --experimental-specifier-resolution=node --loader ts-node/esm src/web3/transaction.ts",
-    "test": "jest --coverage",
+    "test": "jest --coverage --passWithNoTests",
     "test:watch": "jest --watch"
   },
   "dependencies": {
