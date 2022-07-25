@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "abi-decoder": "^2.4.0",
-    "dayjs": "^1.11.1",
+    "dayjs": "^1.11.4",
     "tslib": "^2.4.0",
     "web3": "^1.7.3",
     "web3-core": "^1.7.3",
