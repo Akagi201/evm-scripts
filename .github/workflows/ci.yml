@@ -28,6 +28,9 @@ jobs:
       - name: install volta
         uses: volta-cli/action@v1
 
+      - name: npm ci
+        run: npm ci --no-audit
+
       - name: npm check
         run: npm run check --if-present
 
