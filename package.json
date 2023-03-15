@@ -6,7 +6,7 @@
   "author": "Akagi201 <akagi201@gmail.com>",
   "scripts": {
     "format": "rome format --write .",
-    "check": "rome ci *",
+    "check": "rome ci .",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "sort-package": "sort-package-json",
