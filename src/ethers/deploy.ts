@@ -33,7 +33,7 @@ const abi = contractFile.abi;
    -- Deploy Contract --
 */
 const deploy = async () => {
-	let wallet = new ethers.Wallet(account_from.privateKey, provider);
+	const wallet = new ethers.Wallet(account_from.privateKey, provider);
 	console.log(`Attempting to deploy from account ${wallet.address}`);
 
 	// Create Contract Instance

@@ -29,7 +29,7 @@ const _value = 3;
    -- Send Function --
 */
 // Create wallet
-let wallet = new ethers.Wallet(account_from.privateKey, provider);
+const wallet = new ethers.Wallet(account_from.privateKey, provider);
 
 // Create contract instance with signer
 const incrementer = new ethers.Contract(

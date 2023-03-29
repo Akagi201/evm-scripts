@@ -30,7 +30,7 @@ const account_from = {
 const addressTo = "Change addressTo"; //
 
 // Create wallet
-let wallet = new ethers.Wallet(account_from.privateKey, provider);
+const wallet = new ethers.Wallet(account_from.privateKey, provider);
 
 /*
    -- Create and Send Transaction --
