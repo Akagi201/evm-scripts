@@ -10,6 +10,8 @@ const providerRPC = {
 };
 const web3 = new Web3(providerRPC.moonbase); //Change to correct network
 
+// The accounts info for Moonbeam development node can be found:
+// https://docs.moonbeam.network/cn/builders/get-started/networks/moonbeam-dev/#pre-funded-development-accounts
 const account_from = {
 	privateKey:
 		"13e755880a9cfda5417971a487aaef6ea4b5fc87ee3a4a47a20efe3ab846478a",

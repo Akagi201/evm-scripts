@@ -9,31 +9,32 @@
     "check": "rome ci .",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
-    "sort-package": "sort-package-json",
-    "web3:transaction": "ts-node ./src/web3/transaction.ts",
-    "ethers:mnemonic": "ts-node ./src/ethers/mnemonic_to_private_key.ts"
+    "sort-package": "sort-package-json"
   },
   "dependencies": {
+    "@libp2p/crypto": "^1.0.14",
     "abi-decoder": "^2.4.0",
+    "bs58": "^5.0.0",
     "dayjs": "^1.11.7",
     "dotenv": "^16.0.3",
-    "ethers": "^6.1.0",
+    "ethers": "^6.2.3",
+    "solc": "^0.8.19",
     "tslib": "^2.5.0",
-    "web3": "^1.8.2",
-    "web3-core": "^1.8.2",
-    "web3-eth-contract": "^1.8.2",
+    "web3": "^1.9.0",
+    "web3-core": "^1.9.0",
+    "web3-eth-contract": "^1.9.0",
     "yargs": "^17.7.1"
   },
   "devDependencies": {
     "@typechain/web3-v1": "^6.0.2",
     "@types/bn.js": "^5.1.1",
-    "@types/node": "^18.15.3",
-    "@types/yargs": "^17.0.22",
-    "rome": "^11.0.0",
+    "@types/node": "^18.15.11",
+    "@types/yargs": "^17.0.24",
+    "rome": "^12.0.0",
     "sort-package-json": "^2.4.1",
     "ts-node": "^10.9.1",
     "tsutils": "^3.21.0",
     "typechain": "^8.1.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.2"
   }
 }
