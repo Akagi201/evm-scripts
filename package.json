@@ -35,6 +35,6 @@
     "ts-node": "^10.9.1",
     "tsutils": "^3.21.0",
     "typechain": "^8.1.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.4"
   }
 }
