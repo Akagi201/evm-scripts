@@ -12,7 +12,7 @@
     "sort-package": "sort-package-json"
   },
   "dependencies": {
-    "@libp2p/crypto": "^1.0.14",
+    "@libp2p/crypto": "^1.0.17",
     "abi-decoder": "^2.4.0",
     "bs58": "^5.0.0",
     "dayjs": "^1.11.7",
