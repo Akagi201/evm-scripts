@@ -23,7 +23,7 @@
     "web3": "^1.9.0",
     "web3-core": "^1.9.0",
     "web3-eth-contract": "^1.9.0",
-    "yargs": "^17.7.1"
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "@typechain/web3-v1": "^6.0.2",
